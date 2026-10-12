@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Water droplet + radar pulse symbol within the 66dp safe zone (centered at 54, 54) -->
+    <!-- Radar ripple 1 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#805CC8C0"
+        android:strokeWidth="2.5"
+        android:pathData="M34,42 C40,32 68,32 74,42" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#508B6CF0"
+        android:strokeWidth="2.5"
+        android:pathData="M28,34 C38,22 70,22 80,34" />
+
+    <!-- Water Drop with smooth modern curve -->
+    <path
+        android:pathData="M54,32 C54,32 38,52 38,63 C38,71.8 45.2,79 54,79 C62.8,79 70,71.8 70,63 C70,52 54,32 54,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="32"
+                android:endX="70"
+                android:endY="79"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#A78BFA" />
+                <item android:offset="0.5" android:color="#8B6CF0" />
+                <item android:offset="1.0" android:color="#5CC8C0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass gloss highlight inside the droplet -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M48,46 C45,51 44,56 44,60 C44,62 45,64 47,64 C48,64 48,62 48,60 C48,56 49,52 51,48 Z" />
+
+    <!-- Street road grid lines inside water ripples below -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E6FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M42,67 L66,67" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#B3FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M46,72 L62,72" />
+</vector>

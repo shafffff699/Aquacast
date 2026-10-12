@@ -1,0 +1,6 @@
+{
+  "name": "AquaCast",
+  "description": "Street-by-street AI flood prediction & traffic rerouting with IMD radar, ISRO elevation, drain network modeling, and Liquid Glass design system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
